@@ -49,6 +49,7 @@
 @media (max-width: 1212px){
 	.gallery{
 		height: auto;
+		padding-bottom: 30px;
 	}
 	.gallery-photos-wrapper,
 	.gallery-photos-wrapper2{
@@ -63,12 +64,49 @@
 	.gallery-photos-wrapper2 img:nth-of-type(2){
 		float: none;
 		display: block;
-		margin: 0;
-		width: auto;
+		margin: 0 auto;
+		width: 80%;
+		height: 250px;
+
 	}
 	.gallery-photos-wrapper img:first-of-type,
 	.gallery-photos-wrapper img:nth-of-type(2),
 	.gallery-photos-wrapper2 img:first-of-type{
 		margin-bottom: 20px;
 	}
+	.gallery-bttn{
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 650px){
+	.subscribe-wrapper input[type="button"],
+	.subscribe-wrapper input[type="text"],
+	.subscribe-wrapper h2,
+	.subscribe-wrapper p
+	{
+		margin: 0 auto;
+	}
+
+	.subscribe{
+		color: #ffffff;
+		text-shadow: 0.5px 0.5px black;
+	}
+	.subscribe-wrapper,
+	.subscribe-form{
+		display: flex;
+		flex-direction: column;
+	}
+	.subscribe-wrapper input[type="text"]{
+		margin-top: 15px;
+	}
+	.subscribe-wrapper input[type="button"]{
+		width: 130px;
+		margin-top: 15px;
+	}
+	.subscribe-wrapper p{
+		/*width: auto;*/
+		margin: 0 auto;
+	}
+
 }
