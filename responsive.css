@@ -99,6 +99,7 @@
 	}
 	.subscribe-wrapper input[type="text"]{
 		margin-top: 15px;
+		width: auto;
 	}
 	.subscribe-wrapper input[type="button"]{
 		width: 130px;
