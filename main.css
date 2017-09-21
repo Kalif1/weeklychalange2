@@ -405,6 +405,7 @@ body{
 
 /*------------------BLOG------------------*/
 .blog{
+	position: relative;
 	height: 800px;
 	background-color: #b07cf7;
 	text-align: center;
