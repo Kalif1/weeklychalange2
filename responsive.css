@@ -19,6 +19,12 @@
 	.blog-post{
 		width: 280px;
 	}
+	.name-input,
+	.email-input,
+	.number-input,
+	.message-input{
+		width: 280px;
+	}
 }
 
 @media (max-width: 670px){
