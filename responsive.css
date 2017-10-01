@@ -151,3 +151,16 @@
 		margin-bottom: 40px;
 	}
 }
+
+@media (max-width: 1064px){
+	.adress-wrapper{
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 665px){
+	.adress-wrapper{
+		float: none;
+		display: block;
+	}
+}
