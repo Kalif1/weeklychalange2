@@ -16,6 +16,9 @@
 		float: right;
 		height: 27px;
 	}
+	.blog-post{
+		width: 200px;
+	}
 }
 
 @media (max-width: 670px){
